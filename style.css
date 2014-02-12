@@ -1,0 +1,49 @@
+/*@font-face {font-family: 'AvantGarde-Bold'; src: url('https://dl.dropboxusercontent.com/u/2066680/ITC_Avant_Garde_Gothic_LT_Bold.ttf'); }*/
+
+body, h1, h2, h3, h4, p, blockquote, code, ul, ol, dl, dd, img {
+	margin: 0;
+}
+
+body {
+	line-height: 24px;
+	padding: 24px;
+}
+
+.content {
+	max-width: 520px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	color: #000;
+	/*font: normal 36px/44px "AvantGarde-Bold";*/
+	font-family: Helvetica, Arial, Sans-Serif;
+	margin-bottom: 24px;
+	padding: 0 0 8px 0;
+	border-bottom: solid 4px #BAD6FF;
+}
+
+p {
+	margin: 2px 0;
+}
+
+p, li {
+	color: #333;
+	/*font: normal 14px/18px "AvantGarde-Bold";*/
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+	/*font: normal 14px/18px "AvantGarde-Bold";*/
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: none;
+}
